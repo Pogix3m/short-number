@@ -69,24 +69,24 @@ describe("Short Numbers", () => {
 
     it("Defined Suffix", () => {
         const suffix = [
-            "a",
-            "b",
-            "c",
-            "d",
-            "e"
+            "Thousand",
+            "Million",
+            "Billion",
+            "Trillion",
+            "Quadrillion"
         ];
         assert.strictEqual(shortNumber(1, suffix), "1");
         assert.strictEqual(shortNumber(12, suffix), "12");
         assert.strictEqual(shortNumber(123, suffix), "123");
 
-        assert.strictEqual(shortNumber(1000, suffix), "1a");
-        assert.strictEqual(shortNumber(1234, suffix), "1.23a");
-        assert.strictEqual(shortNumber(1756, suffix), "1.75a");
-        assert.strictEqual(shortNumber(28728, suffix), "28.72a");
+        assert.strictEqual(shortNumber(1000, suffix), "1Thousand");
+        assert.strictEqual(shortNumber(1234, suffix), "1.23Thousand");
+        assert.strictEqual(shortNumber(1756, suffix), "1.75Thousand");
+        assert.strictEqual(shortNumber(28728, suffix), "28.72Thousand");
 
-        assert.strictEqual(shortNumber(-9_876_543, suffix), "-9.87b");
-        assert.strictEqual(shortNumber(-48_342_147, suffix), "-48.34b");
-        assert.strictEqual(shortNumber(-756_159_852, suffix), "-756.15b");
+        assert.strictEqual(shortNumber(-9_876_543, suffix), "-9.87Million");
+        assert.strictEqual(shortNumber(-48_342_147, suffix), "-48.34Million");
+        assert.strictEqual(shortNumber(-756_159_852, suffix), "-756.15Million");
     });
 
     it("Errors", () => {
