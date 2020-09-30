@@ -53,8 +53,8 @@ module.exports = (inputNumber, optionalSuffixes) => {
 
     const leftLength = remainder || 3;
     const wholeNumberResult = wholeNumber.substring(0, leftLength);
-    const decimal = +wholeNumber.substring(leftLength, leftLength + 2);
-    const decimalResult = decimal ? `.${decimal.toString().padEnd(2, "0")}` : "";
+    const decimal = wholeNumber.substring(leftLength, leftLength + 2);
+    const decimalResult = +decimal ? `.${decimal.toString().padEnd(2, "0")}` : "";
 
     return `${sign}${wholeNumberResult}${decimalResult}${suffixes[suffixIndex]}`;
 };

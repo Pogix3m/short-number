@@ -21,6 +21,8 @@ describe("Short Numbers", () => {
         assert.strictEqual(shortNumber(752.750), "752");
         assert.strictEqual(shortNumber(75243.13), "75.24K");
         assert.strictEqual(shortNumber(6248645.13), "6.24M");
+        assert.strictEqual(shortNumber(230096440), "230.09M");
+        assert.strictEqual(shortNumber(640009543), "640M");
 
         assert.strictEqual(shortNumber((154).toString().padEnd(69, "0")), "154Uvg");
     });
