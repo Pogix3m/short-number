@@ -1,4 +1,5 @@
-# short-number
+# short-number [![Build Status](https://travis-ci.org/Pogix3m/short-number.svg?branch=master)](https://travis-ci.org/Pogix3m/short-number) [![GitHub license](https://img.shields.io/github/license/Pogix3m/short-number)](https://github.com/Pogix3m/short-number/blob/master/LICENSE) ![GitHub package.json version](https://img.shields.io/github/package-json/v/Pogix3m/short-number)
+
 Convert long number to short number for readability
 
 ## Installation
