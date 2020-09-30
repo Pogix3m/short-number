@@ -1,0 +1,33 @@
+{
+  "name": "@pogix3m/short-number",
+  "version": "1.0.0",
+  "description": "Convert long number to short number for readability",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pogix3m/short-number.git"
+  },
+  "keywords": [
+    "convert",
+    "format",
+    "number",
+    "readability",
+    "simple",
+    "short"
+  ],
+  "author": {
+    "name": "Harold Niones",
+    "email": "harold_x3m@yahoo.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pogix3m/short-number/issues"
+  },
+  "homepage": "https://github.com/Pogix3m/short-number#readme",
+  "devDependencies": {
+    "mocha": "8.1.3"
+  }
+}
